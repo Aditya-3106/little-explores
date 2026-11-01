@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Tailwind CLI binary
+tailwindcss.exe
+tailwindcss-macos-arm64
+tailwindcss-linux-x64
+
+# Build artifacts (committed - needed for GitHub Pages)
+# public/assets/styles.css is committed intentionally
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+

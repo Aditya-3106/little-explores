@@ -1,0 +1,16 @@
+{
+  "name": "Little Explorers • खेळून शिका",
+  "short_name": "Explorers",
+  "description": "Bilingual educational platform for Nursery and LKG children",
+  "start_url": "./play.html#/play",
+  "display": "standalone",
+  "background_color": "#FEF3C7",
+  "theme_color": "#F97316",
+  "icons": [
+    {
+      "src": "./assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

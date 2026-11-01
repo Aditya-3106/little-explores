@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Little Explorers – Redirecting...</title>
+  <script>
+    // GitHub Pages SPA redirect: store the path and redirect to index
+    const path = window.location.pathname;
+    const search = window.location.search;
+    const hash = window.location.hash;
+    sessionStorage.setItem('le_redirect', path + search + hash);
+    window.location.replace('/');
+  </script>
+</head>
+<body>
+  <p style="font-family:sans-serif;text-align:center;margin-top:3rem;">Redirecting to Little Explorers…</p>
+</body>
+</html>
+

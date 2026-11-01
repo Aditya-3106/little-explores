@@ -1,0 +1,15 @@
+{
+  "name": "little-explorers",
+  "version": "1.0.0",
+  "description": "Bilingual interactive educational platform for Nursery and LKG children",
+  "type": "module",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./src/css/input.css -o ./public/assets/styles.css --watch",
+    "build": "npx @tailwindcss/cli -i ./src/css/input.css -o ./public/assets/styles.css --minify",
+    "preview": "npx http-server ./public -p 3000 -o"
+  },
+  "keywords": ["education", "children", "bilingual", "english", "marathi"],
+  "license": "UNLICENSED",
+  "private": true
+}
+
